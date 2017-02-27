@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/dushuai/C++/2-23-1/Demo.cpp
+Demo.h
+/Users/dushuai/C++/2-23-1/Demo.h
+Teacher.h
+/Users/dushuai/C++/2-23-1/Teacher.h
+
+/Users/dushuai/C++/2-23-1/Demo.h
+iostream
+-
+
+/Users/dushuai/C++/2-23-1/Teacher.cpp
+iostream
+-
+Teacher.h
+/Users/dushuai/C++/2-23-1/Teacher.h
+
+/Users/dushuai/C++/2-23-1/Teacher.h
+string
+-
+
+/Users/dushuai/C++/2-23-1/cmake-build-debug/拷贝构造函数/Teacher.cpp
+Teacher.h
+/Users/dushuai/C++/2-23-1/cmake-build-debug/拷贝构造函数/Teacher.h
+
+/Users/dushuai/C++/2-23-1/cmake-build-debug/拷贝构造函数/Teacher.h
+
+/Users/dushuai/C++/2-23-1/main.cpp
+iostream
+-
+Demo.h
+/Users/dushuai/C++/2-23-1/Demo.h
+

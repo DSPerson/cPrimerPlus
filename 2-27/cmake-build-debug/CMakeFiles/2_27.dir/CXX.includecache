@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/dushuai/C++/2-27/Coordinate.cpp
+Coordinate.h
+/Users/dushuai/C++/2-27/Coordinate.h
+
+/Users/dushuai/C++/2-27/Coordinate.h
+iostream
+-
+
+/Users/dushuai/C++/2-27/Line.cpp
+Line.h
+/Users/dushuai/C++/2-27/Line.h
+
+/Users/dushuai/C++/2-27/Line.h
+iostream
+-
+Coordinate.h
+/Users/dushuai/C++/2-27/Coordinate.h
+
+/Users/dushuai/C++/2-27/main.cpp
+iostream
+-
+Line.h
+/Users/dushuai/C++/2-27/Line.h
+
